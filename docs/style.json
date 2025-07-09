@@ -1,0 +1,1066 @@
+{
+  "version": 8,
+  "center": [
+    125.578778,
+    -8.554318
+  ],
+  "zoom": 16.86,
+  "pitch": 60,
+  "bearing": -178.6,
+  "sources": {
+    "a": {
+      "type": "vector",
+      "url": "pmtiles://https://data.source.coop/smartmaps/cndg-experiment/a.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#f8f9fa"
+      }
+    },
+    {
+      "source": "a",
+      "id": "Karang",
+      "source-layer": "Karang",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#add8e8"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Kebun",
+      "source-layer": "Kebun",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#ffffe0"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Kilang",
+      "source-layer": "Kilang",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#0077cc"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Kolam",
+      "source-layer": "Kolam",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#87ceeb"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Ladang",
+      "source-layer": "Ladang",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#a0522d"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Landasan",
+      "source-layer": "Landasan",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#a0522d"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Laut",
+      "source-layer": "Laut",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#96c8b4"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Awan",
+      "source-layer": "Awan",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#f0f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Bakau",
+      "source-layer": "Bakau",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#f0f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Bandara",
+      "source-layer": "Bandara",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#c0c0c0"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Belukar",
+      "source-layer": "Belukar",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#b0e57c"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Gardu Induk",
+      "source-layer": "Gardu Induk",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#ffa500"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Hutan",
+      "source-layer": "Hutan",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#228622"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Lapangan",
+      "source-layer": "Lapangan",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#f0f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Pasir",
+      "source-layer": "Pasir",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#f0e68c"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Sawah",
+      "source-layer": "Sawah",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#afeeee"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "TPS",
+      "source-layer": "TPS",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#f0f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "TPU",
+      "source-layer": "TPU",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#f0f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Taman",
+      "source-layer": "Taman",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#f0f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Tambang",
+      "source-layer": "Tambang",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#f0f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Tanah Kosong",
+      "source-layer": "Tanah Kosong",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#d2b48c"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Tempat Pemakaman Umum",
+      "source-layer": "Tempat Pemakaman Umum",
+      "type": "fill",
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          20,
+          1
+        ],
+        "fill-color": "#f0f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Sungai",
+      "source-layer": "Sungai",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#4682b4"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Batas Pantai",
+      "source-layer": "Batas Pantai",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0.2,
+          20,
+          1
+        ],
+        "line-color": "#0000c8"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Garis Pantai",
+      "source-layer": "Garis Pantai",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0.2,
+          20,
+          1
+        ],
+        "line-color": "#000080"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Dermaga",
+      "source-layer": "Dermaga",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#8b4513"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Jalan",
+      "source-layer": "Jalan",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#008000"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Jalan Tanah",
+      "source-layer": "Jalan Tanah",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#cd853f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Japan Setapak",
+      "source-layer": "Japan Setapak",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#f0e68c"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Jalan Aspal",
+      "source-layer": "Jalan Aspal",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0.2,
+          17,
+          1
+        ],
+        "line-color": "#969696"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Alur",
+      "source-layer": "Alur",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#649678"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Gorong_Gorong",
+      "source-layer": "Gorong_Gorong",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#4682B4",
+        "line-dasharray": [
+          4,
+          2
+        ]
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Danau",
+      "source-layer": "Danau",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#008080"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Bendungan",
+      "source-layer": "Bendungan",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#add8e6"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Jembatan",
+      "source-layer": "Jembatan",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          1,
+          17,
+          4
+        ],
+        "line-color": "#808080"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Jalur Sutet",
+      "source-layer": "Jalur Sutet",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#ff0000"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Pagar",
+      "source-layer": "Pagar",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0.4,
+          17,
+          2
+        ],
+        "line-color": "#008000"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Parit",
+      "source-layer": "Parit",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#0000ff"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Rawa",
+      "source-layer": "Rawa",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#add8e6"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Sutet",
+      "source-layer": "Sutet",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#ffa500"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Tambak",
+      "source-layer": "Tambak",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#f0f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Tangga",
+      "source-layer": "Tangga",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#f0f"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Tower",
+      "source-layer": "Tower",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.2,
+          18,
+          1
+        ],
+        "line-color": "#ff0000"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Bangunan2D",
+      "source-layer": "Bangunan",
+      "type": "fill",
+      "maxzoom": 16,
+      "paint": {
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          16,
+          1
+        ],
+        "fill-color": "#dcdcdc"
+      },
+      "layout": {}
+    },
+    {
+      "source": "a",
+      "id": "Bangunan3D",
+      "source-layer": "Bangunan",
+      "type": "fill-extrusion",
+      "minzoom": 16,
+      "paint": {
+        "fill-extrusion-color": "#dcdcdc",
+        "fill-extrusion-height": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          16,
+          0,
+          19,
+          10
+        ]
+      },
+      "layout": {}
+    }
+  ]
+}

@@ -8,29 +8,36 @@ body { margin: 0; padding: 0; }
 <script src="https://unpkg.com/maplibre-gl@^5.1.0/dist/maplibre-gl.js"></script>
 <script src="https://unpkg.com/pmtiles@3.2.0/dist/pmtiles.js"></script>
 <link href="https://unpkg.com/maplibre-gl@^5.1.0/dist/maplibre-gl.css" rel="stylesheet" />
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  if (typeof maplibregl === 'undefined' || typeof pmtiles === 'undefined') {
+    console.error('Required libraries are not loaded.');
+    return;
+  }
+
+  maplibregl.addProtocol('pmtiles', (new pmtiles.Protocol()).tile);
+  const map = new maplibregl.Map({
+    container: 'map', style: 'style.json', hash: true
+  });
+  map.addControl(new maplibregl.NavigationControl());
+  map.addControl(new maplibregl.GlobeControl());
+  map.on('load', () => {
+    map.addSource('gel', {
+      type: "raster-dem",
+      tiles: [
+        "pmtiles://https://data.source.coop/smartmaps/gel/gel.pmtiles/{z}/{x}/{y}.webp"
+      ],
+      tileSize: 512,
+      minzoom: 2,
+      maxzoom: 12
+    });
+    map.addControl(new maplibregl.TerrainControl({ "source": "gel" }));
+  });
+});
+</script>
 </head>
 <body>
 <div id="map"></div>
-<script> 
-maplibregl.addProtocol('pmtiles', (new pmtiles.Protocol()).tile)
-const map = new maplibregl.Map({
-  container: 'map', style: 'style.json', hash: true
-})
-map.addControl(new maplibregl.NavigationControl())
-map.addControl(new maplibregl.GlobeControl())
-map.on('load', () => {
-  map.addSource('gel', {
-    type: "raster-dem",
-    tiles: [
-      "pmtiles://https://data.source.coop/smartmaps/gel/gel.pmtiles/{z}/{x}/{y}.webp"
-    ],
-    tileSize: 512,
-    minzoom: 2,
-    maxzoom: 12
-  })
-  map.addControl(new maplibregl.TerrainControl({ "source": "gel" }))
-})
-</script>
 </body>
 </html>
-  
+

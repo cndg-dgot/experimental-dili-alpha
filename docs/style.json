@@ -10,7 +10,7 @@
   "sources": {
     "a": {
       "type": "vector",
-      "url": "pmtiles://https://data.source.coop/smartmaps/cndg-experiment/a.pmtiles"
+      "url": "pmtiles://https://source.optgeo.org/smartmaps/cndg-experiment/a.pmtiles"
     }
   },
   "layers": [

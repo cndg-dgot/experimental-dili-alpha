@@ -1,0 +1,54 @@
+// Point and extrusion layers for experimental-dili-alpha (exact replication from style.json)
+module experimental.dili.alpha.layers.point
+
+import "../config/Colors.pkl" as colors
+
+// 2D Buildings
+bangunan2D = new {
+  source = "a"
+  id = "Bangunan2D"
+  ["source-layer"] = "Bangunan"
+  type = "fill"
+  maxzoom = 16
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      16
+      1
+    }
+    ["fill-color"] = colors.bangunan2D
+  }
+  layout = new {}
+}
+
+// 3D Buildings (with extrusion)
+bangunan3D = new {
+  source = "a"
+  id = "Bangunan3D"
+  ["source-layer"] = "Bangunan"
+  type = "fill-extrusion"
+  minzoom = 16
+  paint = new {
+    ["fill-extrusion-color"] = colors.bangunan3D
+    ["fill-extrusion-height"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      16
+      0
+      19
+      10
+    }
+  }
+  layout = new {}
+}
+
+// All building and point layers in exact order from original style.json
+all = new Listing {
+  bangunan2D
+  bangunan3D
+}

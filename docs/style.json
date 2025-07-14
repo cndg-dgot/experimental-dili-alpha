@@ -24,7 +24,6 @@
     {
       "source": "a",
       "id": "Karang",
-      "source-layer": "Karang",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -40,14 +39,14 @@
           20,
           1
         ],
-        "fill-color": "#add8e8"
+        "fill-color": "#F2F2F2"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Karang"
     },
     {
       "source": "a",
       "id": "Kebun",
-      "source-layer": "Kebun",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -63,14 +62,14 @@
           20,
           1
         ],
-        "fill-color": "#ffffe0"
+        "fill-color": "#FBE5D6"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Kebun"
     },
     {
       "source": "a",
       "id": "Kilang",
-      "source-layer": "Kilang",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -86,14 +85,14 @@
           20,
           1
         ],
-        "fill-color": "#0077cc"
+        "fill-color": "#A6A6A6"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Kilang"
     },
     {
       "source": "a",
       "id": "Kolam",
-      "source-layer": "Kolam",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -109,14 +108,14 @@
           20,
           1
         ],
-        "fill-color": "#87ceeb"
+        "fill-color": "#00CCFF"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Kolam"
     },
     {
       "source": "a",
       "id": "Ladang",
-      "source-layer": "Ladang",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -132,14 +131,14 @@
           20,
           1
         ],
-        "fill-color": "#a0522d"
+        "fill-color": "#FBE5D6"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Ladang"
     },
     {
       "source": "a",
       "id": "Landasan",
-      "source-layer": "Landasan",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -157,12 +156,12 @@
         ],
         "fill-color": "#a0522d"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Landasan"
     },
     {
       "source": "a",
       "id": "Laut",
-      "source-layer": "Laut",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -178,14 +177,14 @@
           20,
           1
         ],
-        "fill-color": "#96c8b4"
+        "fill-color": "#00CCFF"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Laut"
     },
     {
       "source": "a",
       "id": "Awan",
-      "source-layer": "Awan",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -201,14 +200,14 @@
           20,
           1
         ],
-        "fill-color": "#f0f"
+        "fill-color": "#F2F2F2"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Awan"
     },
     {
       "source": "a",
       "id": "Bakau",
-      "source-layer": "Bakau",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -224,14 +223,14 @@
           20,
           1
         ],
-        "fill-color": "#f0f"
+        "fill-color": "#CCFFCC"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Bakau"
     },
     {
       "source": "a",
       "id": "Bandara",
-      "source-layer": "Bandara",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -247,14 +246,14 @@
           20,
           1
         ],
-        "fill-color": "#c0c0c0"
+        "fill-color": "#ff7f00"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Bandara"
     },
     {
       "source": "a",
       "id": "Belukar",
-      "source-layer": "Belukar",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -270,14 +269,14 @@
           20,
           1
         ],
-        "fill-color": "#b0e57c"
+        "fill-color": "#CCFFCC"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Belukar"
     },
     {
       "source": "a",
       "id": "Gardu Induk",
-      "source-layer": "Gardu Induk",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -293,14 +292,14 @@
           20,
           1
         ],
-        "fill-color": "#ffa500"
+        "fill-color": "#FF0000"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Gardu Induk"
     },
     {
       "source": "a",
       "id": "Hutan",
-      "source-layer": "Hutan",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -316,14 +315,14 @@
           20,
           1
         ],
-        "fill-color": "#228622"
+        "fill-color": "#CCFFCC"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Hutan"
     },
     {
       "source": "a",
       "id": "Lapangan",
-      "source-layer": "Lapangan",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -339,14 +338,14 @@
           20,
           1
         ],
-        "fill-color": "#f0f"
+        "fill-color": "#cc7d6f"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Lapangan"
     },
     {
       "source": "a",
       "id": "Pasir",
-      "source-layer": "Pasir",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -362,14 +361,14 @@
           20,
           1
         ],
-        "fill-color": "#f0e68c"
+        "fill-color": "#d4ad4c"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Pasir"
     },
     {
       "source": "a",
       "id": "Sawah",
-      "source-layer": "Sawah",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -385,14 +384,14 @@
           20,
           1
         ],
-        "fill-color": "#afeeee"
+        "fill-color": "#CCFFCC"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Sawah"
     },
     {
       "source": "a",
       "id": "TPS",
-      "source-layer": "TPS",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -408,14 +407,14 @@
           20,
           1
         ],
-        "fill-color": "#f0f"
+        "fill-color": "#663300"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "TPS"
     },
     {
       "source": "a",
       "id": "TPU",
-      "source-layer": "TPU",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -431,14 +430,14 @@
           20,
           1
         ],
-        "fill-color": "#f0f"
+        "fill-color": "#BFBFBF"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "TPU"
     },
     {
       "source": "a",
       "id": "Taman",
-      "source-layer": "Taman",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -454,14 +453,14 @@
           20,
           1
         ],
-        "fill-color": "#f0f"
+        "fill-color": "#CCFFCC"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Taman"
     },
     {
       "source": "a",
       "id": "Tambang",
-      "source-layer": "Tambang",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -477,14 +476,14 @@
           20,
           1
         ],
-        "fill-color": "#f0f"
+        "fill-color": "#FFFFFF"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Tambang"
     },
     {
       "source": "a",
       "id": "Tanah Kosong",
-      "source-layer": "Tanah Kosong",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -500,14 +499,14 @@
           20,
           1
         ],
-        "fill-color": "#d2b48c"
+        "fill-color": "#FBE5D6"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Tanah Kosong"
     },
     {
       "source": "a",
       "id": "Tempat Pemakaman Umum",
-      "source-layer": "Tempat Pemakaman Umum",
       "type": "fill",
       "paint": {
         "fill-opacity": [
@@ -523,14 +522,14 @@
           20,
           1
         ],
-        "fill-color": "#f0f"
+        "fill-color": "#BFBFBF"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Tempat Pemakaman Umum"
     },
     {
       "source": "a",
       "id": "Sungai",
-      "source-layer": "Sungai",
       "type": "line",
       "paint": {
         "line-width": [
@@ -548,12 +547,12 @@
         ],
         "line-color": "#4682b4"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Sungai"
     },
     {
       "source": "a",
       "id": "Batas Pantai",
-      "source-layer": "Batas Pantai",
       "type": "line",
       "paint": {
         "line-width": [
@@ -571,12 +570,12 @@
         ],
         "line-color": "#0000c8"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Batas Pantai"
     },
     {
       "source": "a",
       "id": "Garis Pantai",
-      "source-layer": "Garis Pantai",
       "type": "line",
       "paint": {
         "line-width": [
@@ -594,12 +593,12 @@
         ],
         "line-color": "#000080"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Garis Pantai"
     },
     {
       "source": "a",
       "id": "Dermaga",
-      "source-layer": "Dermaga",
       "type": "line",
       "paint": {
         "line-width": [
@@ -615,14 +614,14 @@
           18,
           1
         ],
-        "line-color": "#8b4513"
+        "line-color": "#ff7f00"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Dermaga"
     },
     {
       "source": "a",
       "id": "Jalan",
-      "source-layer": "Jalan",
       "type": "line",
       "paint": {
         "line-width": [
@@ -640,58 +639,12 @@
         ],
         "line-color": "#008000"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Jalan"
     },
     {
       "source": "a",
       "id": "Jalan Tanah",
-      "source-layer": "Jalan Tanah",
-      "type": "line",
-      "paint": {
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          10,
-          0.2,
-          18,
-          1
-        ],
-        "line-color": "#cd853f"
-      },
-      "layout": {}
-    },
-    {
-      "source": "a",
-      "id": "Japan Setapak",
-      "source-layer": "Japan Setapak",
-      "type": "line",
-      "paint": {
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          10,
-          0.2,
-          18,
-          1
-        ],
-        "line-color": "#f0e68c"
-      },
-      "layout": {}
-    },
-    {
-      "source": "a",
-      "id": "Jalan Aspal",
-      "source-layer": "Jalan Aspal",
       "type": "line",
       "paint": {
         "line-width": [
@@ -707,14 +660,60 @@
           17,
           1
         ],
-        "line-color": "#969696"
+        "line-color": "#FBE5D6"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Jalan Tanah"
+    },
+    {
+      "source": "a",
+      "id": "Japan Setapak",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0.2,
+          17,
+          1
+        ],
+        "line-color": "#f0e68c"
+      },
+      "layout": {},
+      "source-layer": "Japan Setapak"
+    },
+    {
+      "source": "a",
+      "id": "Jalan Aspal",
+      "type": "line",
+      "paint": {
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0.2,
+          17,
+          1
+        ],
+        "line-color": "#ff4719"
+      },
+      "layout": {},
+      "source-layer": "Jalan Aspal"
     },
     {
       "source": "a",
       "id": "Alur",
-      "source-layer": "Alur",
       "type": "line",
       "paint": {
         "line-width": [
@@ -732,12 +731,12 @@
         ],
         "line-color": "#649678"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Alur"
     },
     {
       "source": "a",
       "id": "Gorong_Gorong",
-      "source-layer": "Gorong_Gorong",
       "type": "line",
       "paint": {
         "line-width": [
@@ -759,12 +758,12 @@
           2
         ]
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Gorong_Gorong"
     },
     {
       "source": "a",
       "id": "Danau",
-      "source-layer": "Danau",
       "type": "line",
       "paint": {
         "line-width": [
@@ -780,14 +779,14 @@
           18,
           1
         ],
-        "line-color": "#008080"
+        "line-color": "#0066FF"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Danau"
     },
     {
       "source": "a",
       "id": "Bendungan",
-      "source-layer": "Bendungan",
       "type": "line",
       "paint": {
         "line-width": [
@@ -805,12 +804,12 @@
         ],
         "line-color": "#add8e6"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Bendungan"
     },
     {
       "source": "a",
       "id": "Jembatan",
-      "source-layer": "Jembatan",
       "type": "line",
       "paint": {
         "line-width": [
@@ -822,18 +821,18 @@
             "zoom"
           ],
           13,
-          1,
+          0.4,
           17,
-          4
+          2
         ],
         "line-color": "#808080"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Jembatan"
     },
     {
       "source": "a",
       "id": "Jalur Sutet",
-      "source-layer": "Jalur Sutet",
       "type": "line",
       "paint": {
         "line-width": [
@@ -851,12 +850,12 @@
         ],
         "line-color": "#ff0000"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Jalur Sutet"
     },
     {
       "source": "a",
       "id": "Pagar",
-      "source-layer": "Pagar",
       "type": "line",
       "paint": {
         "line-width": [
@@ -867,19 +866,19 @@
           [
             "zoom"
           ],
-          13,
-          0.4,
-          17,
-          2
+          10,
+          0.2,
+          18,
+          1
         ],
         "line-color": "#008000"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Pagar"
     },
     {
       "source": "a",
       "id": "Parit",
-      "source-layer": "Parit",
       "type": "line",
       "paint": {
         "line-width": [
@@ -897,12 +896,12 @@
         ],
         "line-color": "#0000ff"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Parit"
     },
     {
       "source": "a",
       "id": "Rawa",
-      "source-layer": "Rawa",
       "type": "line",
       "paint": {
         "line-width": [
@@ -918,14 +917,14 @@
           18,
           1
         ],
-        "line-color": "#add8e6"
+        "line-color": "#0066FF"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Rawa"
     },
     {
       "source": "a",
       "id": "Sutet",
-      "source-layer": "Sutet",
       "type": "line",
       "paint": {
         "line-width": [
@@ -943,12 +942,12 @@
         ],
         "line-color": "#ffa500"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Sutet"
     },
     {
       "source": "a",
       "id": "Tambak",
-      "source-layer": "Tambak",
       "type": "line",
       "paint": {
         "line-width": [
@@ -964,14 +963,14 @@
           18,
           1
         ],
-        "line-color": "#f0f"
+        "line-color": "#00CCFF"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Tambak"
     },
     {
       "source": "a",
       "id": "Tangga",
-      "source-layer": "Tangga",
       "type": "line",
       "paint": {
         "line-width": [
@@ -987,14 +986,14 @@
           18,
           1
         ],
-        "line-color": "#f0f"
+        "line-color": "#808080"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Tangga"
     },
     {
       "source": "a",
       "id": "Tower",
-      "source-layer": "Tower",
       "type": "line",
       "paint": {
         "line-width": [
@@ -1010,14 +1009,14 @@
           18,
           1
         ],
-        "line-color": "#ff0000"
+        "line-color": "#800000"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Tower"
     },
     {
       "source": "a",
       "id": "Bangunan2D",
-      "source-layer": "Bangunan",
       "type": "fill",
       "maxzoom": 16,
       "paint": {
@@ -1034,18 +1033,18 @@
           16,
           1
         ],
-        "fill-color": "#dcdcdc"
+        "fill-color": "#D9D9D9"
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Bangunan"
     },
     {
       "source": "a",
       "id": "Bangunan3D",
-      "source-layer": "Bangunan",
       "type": "fill-extrusion",
       "minzoom": 16,
       "paint": {
-        "fill-extrusion-color": "#dcdcdc",
+        "fill-extrusion-color": "#D9D9D9",
         "fill-extrusion-height": [
           "interpolate",
           [
@@ -1060,7 +1059,8 @@
           10
         ]
       },
-      "layout": {}
+      "layout": {},
+      "source-layer": "Bangunan"
     }
   ]
 }

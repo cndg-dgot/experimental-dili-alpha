@@ -1,0 +1,9 @@
+// Sources configuration for experimental-dili-alpha
+module experimental.dili.alpha.sources
+
+all = new {
+  a = new {
+    type = "vector"
+    url = "https://pmtiles.optgeo.org/cndg-experiment.json"
+  }
+}

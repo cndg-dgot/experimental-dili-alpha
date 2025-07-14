@@ -1,0 +1,21 @@
+// Apple Pkl configuration for MapLibre GL style generation - experimental-dili-alpha
+module style
+
+import "config/Colors.pkl" as colors
+import "config/Sources.pkl" as sourcesConfig
+import "layers/BaseLayers.pkl" as baseLayers
+import "layers/LinearLayers.pkl" as linearLayers
+import "layers/PointLayers.pkl" as pointLayers
+
+version = 8
+name = null
+center = new Listing { 125.578778; -8.554318 }
+zoom = 16.86
+pitch = 60
+bearing = -178.6
+sources = sourcesConfig.all
+layers = new Listing {
+  ...baseLayers.all
+  ...linearLayers.all
+  ...pointLayers.all
+}

@@ -1,0 +1,481 @@
+// Background and fill layers for experimental-dili-alpha (exact replication from style.json)
+module experimental.dili.alpha.layers.base
+
+import "../config/Colors.pkl" as colors
+
+// Background layer
+background = new {
+  id = "background"
+  type = "background"
+  paint = new {
+    ["background-color"] = colors.background
+  }
+}
+
+// Fill layers in exact order from original style.json
+karang = new {
+  source = "a"
+  id = "Karang"
+  ["source-layer"] = "Karang"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.karang
+  }
+  layout = new {}
+}
+
+kebun = new {
+  source = "a"
+  id = "Kebun"
+  ["source-layer"] = "Kebun"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.kebun
+  }
+  layout = new {}
+}
+
+kilang = new {
+  source = "a"
+  id = "Kilang"
+  ["source-layer"] = "Kilang"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.kilang
+  }
+  layout = new {}
+}
+
+kolam = new {
+  source = "a"
+  id = "Kolam"
+  ["source-layer"] = "Kolam"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.kolam
+  }
+  layout = new {}
+}
+
+ladang = new {
+  source = "a"
+  id = "Ladang"
+  ["source-layer"] = "Ladang"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.ladang
+  }
+  layout = new {}
+}
+
+landasan = new {
+  source = "a"
+  id = "Landasan"
+  ["source-layer"] = "Landasan"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.landasan
+  }
+  layout = new {}
+}
+
+laut = new {
+  source = "a"
+  id = "Laut"
+  ["source-layer"] = "Laut"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.laut
+  }
+  layout = new {}
+}
+
+awan = new {
+  source = "a"
+  id = "Awan"
+  ["source-layer"] = "Awan"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.awan
+  }
+  layout = new {}
+}
+
+bakau = new {
+  source = "a"
+  id = "Bakau"
+  ["source-layer"] = "Bakau"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.bakau
+  }
+  layout = new {}
+}
+
+bandara = new {
+  source = "a"
+  id = "Bandara"
+  ["source-layer"] = "Bandara"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.bandara
+  }
+  layout = new {}
+}
+
+belukar = new {
+  source = "a"
+  id = "Belukar"
+  ["source-layer"] = "Belukar"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.belukar
+  }
+  layout = new {}
+}
+
+garduInduk = new {
+  source = "a"
+  id = "Gardu Induk"
+  ["source-layer"] = "Gardu Induk"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.garduInduk
+  }
+  layout = new {}
+}
+
+hutan = new {
+  source = "a"
+  id = "Hutan"
+  ["source-layer"] = "Hutan"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.hutan
+  }
+  layout = new {}
+}
+
+lapangan = new {
+  source = "a"
+  id = "Lapangan"
+  ["source-layer"] = "Lapangan"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.lapangan
+  }
+  layout = new {}
+}
+
+pasir = new {
+  source = "a"
+  id = "Pasir"
+  ["source-layer"] = "Pasir"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.pasir
+  }
+  layout = new {}
+}
+
+sawah = new {
+  source = "a"
+  id = "Sawah"
+  ["source-layer"] = "Sawah"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.sawah
+  }
+  layout = new {}
+}
+
+tps = new {
+  source = "a"
+  id = "TPS"
+  ["source-layer"] = "TPS"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.tps
+  }
+  layout = new {}
+}
+
+tpu = new {
+  source = "a"
+  id = "TPU"
+  ["source-layer"] = "TPU"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.tpu
+  }
+  layout = new {}
+}
+
+taman = new {
+  source = "a"
+  id = "Taman"
+  ["source-layer"] = "Taman"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.taman
+  }
+  layout = new {}
+}
+
+tambang = new {
+  source = "a"
+  id = "Tambang"
+  ["source-layer"] = "Tambang"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.tambang
+  }
+  layout = new {}
+}
+
+tanahKosong = new {
+  source = "a"
+  id = "Tanah Kosong"
+  ["source-layer"] = "Tanah Kosong"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.tanahKosong
+  }
+  layout = new {}
+}
+
+tempatPemakamanUmum = new {
+  source = "a"
+  id = "Tempat Pemakaman Umum"
+  ["source-layer"] = "Tempat Pemakaman Umum"
+  type = "fill"
+  paint = new {
+    ["fill-opacity"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      15
+      0
+      20
+      1
+    }
+    ["fill-color"] = colors.tempatPemakamanUmum
+  }
+  layout = new {}
+}
+
+// All fill layers in exact order from original style.json
+all = new Listing {
+  background
+  karang
+  kebun
+  kilang
+  kolam
+  ladang
+  landasan
+  laut
+  awan
+  bakau
+  bandara
+  belukar
+  garduInduk
+  hutan
+  lapangan
+  pasir
+  sawah
+  tps
+  tpu
+  taman
+  tambang
+  tanahKosong
+  tempatPemakamanUmum
+}

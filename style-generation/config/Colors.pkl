@@ -1,0 +1,57 @@
+// Color definitions for experimental-dili-alpha (exact replication from style.json)
+module experimental.dili.alpha.config.colors
+
+// Base colors (matching ColorCode.md theme)
+background = "#f8f9fa"  // Light background consistent with style
+
+// Fill layer colors (from ColorCode.md specifications)
+karang = "#F2F2F2"  // Rock - Bright Gray
+kebun = "#FBE5D6"   // Farmland - Beige  
+kilang = "#A6A6A6"  // Oil Tank - Dark Gray
+kolam = "#00CCFF"   // Pond - Light Blue
+ladang = "#FBE5D6"  // Cropland - Beige
+landasan = "#a0522d" // Runway - Brown (from current style.json)
+laut = "#00CCFF"    // Sea - Light Blue (Fill from ColorCode.md)
+awan = "#F2F2F2"    // Clouds - Bright Gray
+bakau = "#CCFFCC"   // Mangrove - Light Green
+bandara = "#ff7f00" // Airport - Orange
+belukar = "#CCFFCC" // Grassland - Light Green
+garduInduk = "#FF0000" // Power Plant - Red
+hutan = "#CCFFCC"   // Forest - Light Green
+lapangan = "#cc7d6f" // Sport Field - Dark Red
+pasir = "#d4ad4c"   // Sand - Beige
+sawah = "#CCFFCC"   // Rice Field - Light Green
+tps = "#663300"     // Waste Dumping Site - Brown
+tpu = "#BFBFBF"     // Cemetery (Alt) - Gray
+taman = "#CCFFCC"   // Garden - Light Green
+tambang = "#FFFFFF" // Mining - White
+tanahKosong = "#FBE5D6" // Bare Land - Beige
+tempatPemakamanUmum = "#BFBFBF" // Cemetery - Gray
+
+// Line layer colors (from ColorCode.md specifications)
+sungai = "#4682b4"      // River - Steel Blue (Line from ColorCode.md)
+batasPantai = "#0000c8" // Coast Boundary - Blue (from style.json)
+garisPantai = "#000080" // Coast Line - Navy Blue
+dermaga = "#ff7f00"     // Sea Port - Orange
+jalan = "#008000"       // Road - Green
+jalanTanah = "#FBE5D6"  // Unpaved Roads - Beige (background color)
+japanSetapak = "#f0e68c" // Footpath - Khaki
+jalanAspal = "#ff4719"  // Paved Roads - Reddish Orange
+alur = "#649678"        // Channel - Dark Sea Green (from style.json)
+gorongGorong = "#4682B4" // Culvert - Steel Blue
+danau = "#0066FF"       // Lake - Blue
+bendungan = "#add8e6"   // Dam - Light Blue
+jembatan = "#808080"    // Bridge - Gray
+jalurSutet = "#ff0000"  // Power Line Route - Red
+pagar = "#008000"       // Fence - Green
+parit = "#0000ff"       // Ditch - Blue
+rawa = "#0066FF"        // Swamp - Blue
+sutet = "#ffa500"       // Power Line - Orange
+tambak = "#00CCFF"      // Pool - Light Blue
+tangga = "#808080"      // Stairs - Gray (similar to bridge)
+tower = "#800000"       // Tower - Red Brown
+
+// Building colors (from ColorCode.md specifications)
+bangunan = "#D9D9D9"    // Building - Light Gray (alias)
+bangunan2D = "#D9D9D9"  // Building - Light Gray
+bangunan3D = "#D9D9D9"  // Building - Light Gray

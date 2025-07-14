@@ -1,0 +1,456 @@
+// Linear layers for experimental-dili-alpha (exact replication from style.json)
+module experimental.dili.alpha.layers.linear
+
+import "../config/Colors.pkl" as colors
+
+// Rivers and waterways
+sungai = new {
+  source = "a"
+  id = "Sungai"
+  ["source-layer"] = "Sungai"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.sungai
+  }
+  layout = new {}
+}
+
+// Coastal boundaries
+batasPantai = new {
+  source = "a"
+  id = "Batas Pantai"
+  ["source-layer"] = "Batas Pantai"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      13
+      0.2
+      20
+      1
+    }
+    ["line-color"] = colors.batasPantai
+  }
+  layout = new {}
+}
+
+garisPantai = new {
+  source = "a"
+  id = "Garis Pantai"
+  ["source-layer"] = "Garis Pantai"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      13
+      0.2
+      20
+      1
+    }
+    ["line-color"] = colors.garisPantai
+  }
+  layout = new {}
+}
+
+// Port infrastructure
+dermaga = new {
+  source = "a"
+  id = "Dermaga"
+  ["source-layer"] = "Dermaga"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.dermaga
+  }
+  layout = new {}
+}
+
+// Road system
+jalan = new {
+  source = "a"
+  id = "Jalan"
+  ["source-layer"] = "Jalan"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.jalan
+  }
+  layout = new {}
+}
+
+jalanTanah = new {
+  source = "a"
+  id = "Jalan Tanah"
+  ["source-layer"] = "Jalan Tanah"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      13
+      0.2
+      17
+      1
+    }
+    ["line-color"] = colors.jalanTanah
+  }
+  layout = new {}
+}
+
+japanSetapak = new {
+  source = "a"
+  id = "Japan Setapak"
+  ["source-layer"] = "Japan Setapak"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      13
+      0.2
+      17
+      1
+    }
+    ["line-color"] = colors.japanSetapak
+  }
+  layout = new {}
+}
+
+jalanAspal = new {
+  source = "a"
+  id = "Jalan Aspal"
+  ["source-layer"] = "Jalan Aspal"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      13
+      0.2
+      17
+      1
+    }
+    ["line-color"] = colors.jalanAspal
+  }
+  layout = new {}
+}
+
+// Water channels
+alur = new {
+  source = "a"
+  id = "Alur"
+  ["source-layer"] = "Alur"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.alur
+  }
+  layout = new {}
+}
+
+gorongGorong = new {
+  source = "a"
+  id = "Gorong_Gorong"
+  ["source-layer"] = "Gorong_Gorong"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.gorongGorong
+    ["line-dasharray"] = new Listing { 4; 2 }
+  }
+  layout = new {}
+}
+
+danau = new {
+  source = "a"
+  id = "Danau"
+  ["source-layer"] = "Danau"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.danau
+  }
+  layout = new {}
+}
+
+bendungan = new {
+  source = "a"
+  id = "Bendungan"
+  ["source-layer"] = "Bendungan"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.bendungan
+  }
+  layout = new {}
+}
+
+// Infrastructure
+jembatan = new {
+  source = "a"
+  id = "Jembatan"
+  ["source-layer"] = "Jembatan"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      13
+      0.4
+      17
+      2
+    }
+    ["line-color"] = colors.jembatan
+  }
+  layout = new {}
+}
+
+jalurSutet = new {
+  source = "a"
+  id = "Jalur Sutet"
+  ["source-layer"] = "Jalur Sutet"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.jalurSutet
+  }
+  layout = new {}
+}
+
+pagar = new {
+  source = "a"
+  id = "Pagar"
+  ["source-layer"] = "Pagar"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.pagar
+  }
+  layout = new {}
+}
+
+parit = new {
+  source = "a"
+  id = "Parit"
+  ["source-layer"] = "Parit"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.parit
+  }
+  layout = new {}
+}
+
+rawa = new {
+  source = "a"
+  id = "Rawa"
+  ["source-layer"] = "Rawa"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.rawa
+  }
+  layout = new {}
+}
+
+sutet = new {
+  source = "a"
+  id = "Sutet"
+  ["source-layer"] = "Sutet"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.sutet
+  }
+  layout = new {}
+}
+
+tambak = new {
+  source = "a"
+  id = "Tambak"
+  ["source-layer"] = "Tambak"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.tambak
+  }
+  layout = new {}
+}
+
+tangga = new {
+  source = "a"
+  id = "Tangga"
+  ["source-layer"] = "Tangga"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.tangga
+  }
+  layout = new {}
+}
+
+tower = new {
+  source = "a"
+  id = "Tower"
+  ["source-layer"] = "Tower"
+  type = "line"
+  paint = new {
+    ["line-width"] = new Listing {
+      "interpolate"
+      new Listing { "linear" }
+      new Listing { "zoom" }
+      10
+      0.2
+      18
+      1
+    }
+    ["line-color"] = colors.tower
+  }
+  layout = new {}
+}
+
+// All linear layers in exact order from original style.json
+all = new Listing {
+  sungai
+  batasPantai
+  garisPantai
+  dermaga
+  jalan
+  jalanTanah
+  japanSetapak
+  jalanAspal
+  alur
+  gorongGorong
+  danau
+  bendungan
+  jembatan
+  jalurSutet
+  pagar
+  parit
+  rawa
+  sutet
+  tambak
+  tangga
+  tower
+}

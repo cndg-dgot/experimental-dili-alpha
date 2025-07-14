@@ -20,17 +20,17 @@ style-generation/
 
 ### Generate style.json
 ```bash
-make generate-style
+make style
 ```
 
-### Validate Pkl configuration
+### Start development server with generated style
 ```bash
-make validate-pkl
+make generate-and-host
 ```
 
-### Build everything (including style generation)
+### View all available commands
 ```bash
-make build
+make help
 ```
 
 ## Dependencies

@@ -6,6 +6,9 @@ experimental-dili-alpha is a MapLibre GL-based mapping system with Apple Pkl-bas
 ## Demo on GitHub Pages
 https://cndg-dgot.github.io/experimental-dili-alpha/
 
+## PMTiles.io Viewer
+https://pmtiles.io/#url=https%3A%2F%2Fpmtiles.optgeo.org%2Fcndg-experiment.json&map=17.53/-8.55425/125.578644
+
 ## Features
 - **Apple Pkl-based Style Generation**: Type-safe configuration management for MapLibre GL styles
 - **ColorCode.md Specifications**: Centralized color and styling documentation with English/Indonesian mapping

@@ -4,6 +4,31 @@
 <style>
 body { margin: 0; padding: 0; }
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+.info-panel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 13px;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+}
+.info-panel a {
+  color: #0066cc;
+  text-decoration: none;
+  margin-right: 12px;
+  font-weight: 500;
+}
+.info-panel a:hover {
+  text-decoration: underline;
+}
+.info-panel a:last-child {
+  margin-right: 0;
+}
 </style>
 <script src="https://unpkg.com/maplibre-gl@^5.1.0/dist/maplibre-gl.js"></script>
 <script src="https://unpkg.com/pmtiles@3.2.0/dist/pmtiles.js"></script>
@@ -37,6 +62,10 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 </head>
 <body>
+<div class="info-panel">
+  <a href="https://github.com/cndg-dgot/experimental-dili-alpha" target="_blank">Repository</a>
+  <a href="https://pmtiles.io/#url=https%3A%2F%2Fpmtiles.optgeo.org%2Fcndg-experiment.json&map=17.53/-8.55425/125.578644" target="_blank">PMTiles.io</a>
+</div>
 <div id="map"></div>
 </body>
 </html>
